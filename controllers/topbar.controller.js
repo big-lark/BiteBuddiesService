@@ -34,7 +34,7 @@ export const topbarBackArrow = async () => {
   backArrow.addEventListener("click", async () => {
     // history.go(-1);
     // await renderOnboardingPage();
-    window.location.href = "http://127.0.0.1:5500/";
+    window.location.href = "https://big-lark.github.io/BiteBuddiesService/";
   });
   return backArrow;
 };
