@@ -14,7 +14,7 @@ export const friendsCard = async () => {
   //   method: "GET",
   // }).then((e) => e.json());
   const card = await mainComponent.friendsCard();
-  card.setAttribute("src", "/src/user_face.jpg");
+  card.setAttribute("src", "/src/user_face.png");
   card.setAttribute("alt", "users");
 
   return card;
