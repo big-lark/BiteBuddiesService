@@ -8,6 +8,9 @@ export const renderCustomerInfo = async () => {
   target.innerHTML = "";
   document.querySelector(".topbar-box").setAttribute("style", "block");
 
+  const topbar = document.querySelector(".topbar-box");
+  topbar.setAttribute("style", "display:flex");
+
   const title = await customerInfoController.title();
   const buttonWapper = await customerInfoController.buttonWrapper();
 

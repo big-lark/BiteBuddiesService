@@ -35,6 +35,8 @@ export const topbarBackArrow = async () => {
     // history.go(-1);
     // await renderOnboardingPage();
     window.location.href = "https://big-lark.github.io/BiteBuddiesService/";
+    const topbar = document.querySelector(".topbar-box");
+    topbar.setAttribute("style", "display:none");
   });
   return backArrow;
 };

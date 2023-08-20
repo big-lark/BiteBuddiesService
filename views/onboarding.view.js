@@ -6,6 +6,8 @@ export const renderOnboardingPage = async () => {
   history.pushState({ v1: "onboarding" }, "", "onboarding");
   const target = document.querySelector(".section-body");
   target.innerHTML = "";
+  const topbar = document.querySelector(".topbar-box");
+  topbar.setAttribute("style", "display:none");
   const bottombar = document.querySelector(".bottom-bar-wrapper");
   bottombar.setAttribute("style", "display:none");
 
